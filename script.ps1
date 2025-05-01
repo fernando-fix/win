@@ -1,5 +1,5 @@
 # Define a senha de acesso (esta senha está codificada no script; ajuste conforme necessário)
-$senhaCorreta = ConvertTo-SecureString "Connectta**2024" -AsPlainText -Force
+$senhaCorreta = ConvertTo-SecureString "SecurePassword" -AsPlainText -Force
 
 # Função para verificar a senha
 function Verificar-Senha {
